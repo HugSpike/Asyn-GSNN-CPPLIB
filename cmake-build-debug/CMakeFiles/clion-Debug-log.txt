@@ -1,0 +1,29 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/x64/ninja -G Ninja -S /Users/fengfan/Downloads/github_link/Asyn-GSNN-CPPLIB -B /Users/fengfan/Downloads/github_link/Asyn-GSNN-CPPLIB/cmake-build-debug
+-- The C compiler identification is AppleClang 15.0.0.15000309
+-- The CXX compiler identification is AppleClang 15.0.0.15000309
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Error at /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
+  Could NOT find Python3 (missing: Development Development.Module
+  Development.Embed) (found version "3.9")
+
+      Reason given by package: 
+          Development: Cannot find the directory "/home/ff/anaconda3/envs/spike/include/python3.9"
+                                                                                       Cannot find the library "/home/ff/anaconda3/envs/spike/lib/libpython3.9.so"
+
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:600 (_FPHSA_FAILURE_MESSAGE)
+  /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.28/Modules/FindPython/Support.cmake:3867 (find_package_handle_standard_args)
+  /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.28/Modules/FindPython3.cmake:545 (include)
+  CMakeLists.txt:15 (find_package)
+
+
+-- Configuring incomplete, errors occurred!

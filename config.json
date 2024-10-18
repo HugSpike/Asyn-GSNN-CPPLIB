@@ -1,0 +1,19 @@
+{
+  "time_step_init": 1,
+  "max_rate_init": 1.0,
+  "sample_num1": 5,
+  "sample_num2": 10,
+  "v_rest1": 200,
+  "v_r1": 190,
+  "v_threshold_init1": 205.0,
+  "v_rest2": 150,
+  "v_r2": 140,
+  "v_threshold_init2": 155,
+  "speed": 1e-10,
+  "refractory_period_init": 1e9,
+  "decay_alpha": 0.1,
+  "beta_init": 0.5,
+  "batchSize": 50,
+  "dropout_rate": 0.1,
+  "num_class": 7
+}

@@ -1,0 +1,79 @@
+{
+    "type": "shell",
+    "label": "CMake Build",
+    "command": "/usr/bin/cmake",
+    "args": [
+        "--build",
+        "${workspaceFolder}/build",
+        "--config",
+        "Release",
+        "--",
+        "-j4"
+    ],
+    "problemMatcher": [
+        "$gcc"
+    ],
+    "group": {
+        "kind": "build",
+        "isDefault": true
+    },
+    "detail": "Generated task by CMake Tools.",
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++ 生成活动文件",
+            "command": "/home/ff/gcc-9.5.0/install/bin/gcc",
+            "args": [
+                "-std=c++17",
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}",
+                "-I/home/ff/anaconda3/envs/spike/include/python3.9",
+                "-I/home/ff/anaconda3/envs/spike/lib/python3.9/site-packages/pybind11/include",
+                "-I/home/ff/anaconda3/envs/spike/lib/python3.9/site-packages/torch/include",
+                "-I/home/ff/anaconda3/envs/spike/lib/python3.9/site-packages/torch/include/torch/csrc/api/include"
+                
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "调试器生成的任务。"
+        },
+        {
+            "type": "cppbuild",
+            "label": "C/C++: gcc 生成活动文件",
+            "command": "/home/ff/gcc-9.5.0/install/bin/gcc",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}",
+                "-std=c++17",
+                "-I/home/ff/anaconda3/envs/spike/include/python3.9",
+                "-I/home/ff/anaconda3/envs/spike/lib/python3.9/site-packages/pybind11/include",
+                "-I/home/ff/anaconda3/envs/spike/lib/python3.9/site-packages/torch/include",
+                "-I/home/ff/anaconda3/envs/spike/lib/python3.9/site-packages/torch/include/torch/csrc/api/include"
+                
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "调试器生成的任务。"
+        }
+    ]
+}

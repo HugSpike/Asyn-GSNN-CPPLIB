@@ -1,0 +1,3 @@
+/home/ff/code/cpp_files_cpu/build/CMakeFiles/rebuild_cache.dir
+/home/ff/code/cpp_files_cpu/build/CMakeFiles/edit_cache.dir
+/home/ff/code/cpp_files_cpu/build/CMakeFiles/test.dir

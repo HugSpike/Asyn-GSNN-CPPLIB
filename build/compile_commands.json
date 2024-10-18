@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/ff/code/cpp_files_cpu/build",
+  "command": "/home/ff/gcc-9.5.0/install/bin/g++ -DUSE_C10D_GLOO -DUSE_C10D_NCCL -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -I/home/ff/files/libkineto/include -I/home/ff/code/cpp_files_cpu -isystem /home/ff/anaconda3/envs/spike/include/python3.9 -isystem /home/ff/anaconda3/envs/spike/lib/python3.9/site-packages/torch/include -isystem /home/ff/anaconda3/envs/spike/lib/python3.9/site-packages/torch/include/torch/csrc/api/include -isystem /usr/local/cuda/include -g -pg -D_GLIBCXX_USE_CXX11_ABI=0 -fopenmp -std=gnu++17 -o CMakeFiles/test.dir/test2.cpp.o -c /home/ff/code/cpp_files_cpu/test2.cpp",
+  "file": "/home/ff/code/cpp_files_cpu/test2.cpp"
+},
+{
+  "directory": "/home/ff/code/cpp_files_cpu/build",
+  "command": "/home/ff/gcc-9.5.0/install/bin/g++ -DUSE_C10D_GLOO -DUSE_C10D_NCCL -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -I/home/ff/files/libkineto/include -I/home/ff/code/cpp_files_cpu -isystem /home/ff/anaconda3/envs/spike/include/python3.9 -isystem /home/ff/anaconda3/envs/spike/lib/python3.9/site-packages/torch/include -isystem /home/ff/anaconda3/envs/spike/lib/python3.9/site-packages/torch/include/torch/csrc/api/include -isystem /usr/local/cuda/include -g -pg -D_GLIBCXX_USE_CXX11_ABI=0 -fopenmp -std=gnu++17 -o CMakeFiles/test.dir/AsynchronousConvLayer.cpp.o -c /home/ff/code/cpp_files_cpu/AsynchronousConvLayer.cpp",
+  "file": "/home/ff/code/cpp_files_cpu/AsynchronousConvLayer.cpp"
+},
+{
+  "directory": "/home/ff/code/cpp_files_cpu/build",
+  "command": "/home/ff/gcc-9.5.0/install/bin/g++ -DUSE_C10D_GLOO -DUSE_C10D_NCCL -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -I/home/ff/files/libkineto/include -I/home/ff/code/cpp_files_cpu -isystem /home/ff/anaconda3/envs/spike/include/python3.9 -isystem /home/ff/anaconda3/envs/spike/lib/python3.9/site-packages/torch/include -isystem /home/ff/anaconda3/envs/spike/lib/python3.9/site-packages/torch/include/torch/csrc/api/include -isystem /usr/local/cuda/include -g -pg -D_GLIBCXX_USE_CXX11_ABI=0 -fopenmp -std=gnu++17 -o CMakeFiles/test.dir/AsynchronousGraphSpiNet.cpp.o -c /home/ff/code/cpp_files_cpu/AsynchronousGraphSpiNet.cpp",
+  "file": "/home/ff/code/cpp_files_cpu/AsynchronousGraphSpiNet.cpp"
+},
+{
+  "directory": "/home/ff/code/cpp_files_cpu/build",
+  "command": "/home/ff/gcc-9.5.0/install/bin/g++ -DUSE_C10D_GLOO -DUSE_C10D_NCCL -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -I/home/ff/files/libkineto/include -I/home/ff/code/cpp_files_cpu -isystem /home/ff/anaconda3/envs/spike/include/python3.9 -isystem /home/ff/anaconda3/envs/spike/lib/python3.9/site-packages/torch/include -isystem /home/ff/anaconda3/envs/spike/lib/python3.9/site-packages/torch/include/torch/csrc/api/include -isystem /usr/local/cuda/include -g -pg -D_GLIBCXX_USE_CXX11_ABI=0 -fopenmp -std=gnu++17 -o CMakeFiles/test.dir/Util.cpp.o -c /home/ff/code/cpp_files_cpu/Util.cpp",
+  "file": "/home/ff/code/cpp_files_cpu/Util.cpp"
+},
+{
+  "directory": "/home/ff/code/cpp_files_cpu/build",
+  "command": "/home/ff/gcc-9.5.0/install/bin/g++ -DUSE_C10D_GLOO -DUSE_C10D_NCCL -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -I/home/ff/files/libkineto/include -I/home/ff/code/cpp_files_cpu -isystem /home/ff/anaconda3/envs/spike/include/python3.9 -isystem /home/ff/anaconda3/envs/spike/lib/python3.9/site-packages/torch/include -isystem /home/ff/anaconda3/envs/spike/lib/python3.9/site-packages/torch/include/torch/csrc/api/include -isystem /usr/local/cuda/include -g -pg -D_GLIBCXX_USE_CXX11_ABI=0 -fopenmp -std=gnu++17 -o CMakeFiles/test.dir/SpikeGen.cpp.o -c /home/ff/code/cpp_files_cpu/SpikeGen.cpp",
+  "file": "/home/ff/code/cpp_files_cpu/SpikeGen.cpp"
+}
+]
